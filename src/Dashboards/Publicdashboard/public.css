@@ -1,0 +1,15 @@
+#myVideo{
+
+    min-width: 100%;
+    min-height: 100%;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    justify-items: center;
+    margin-left: 40px;
+}
+#gridshadow{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow:'5px 10px 18px #888888'
+}

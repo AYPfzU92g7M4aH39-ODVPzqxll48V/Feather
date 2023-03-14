@@ -1,0 +1,11 @@
+
+  .container-div{ 
+   Display: flex;
+   Height: 100;
+   Width: 150; 
+   Align-Items: center;
+   Justify-Content: center;
+   background:whitesmoke;
+   border-radius: 50%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

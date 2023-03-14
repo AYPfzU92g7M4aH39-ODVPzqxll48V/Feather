@@ -1,0 +1,63 @@
+.home-container {
+    width: 100%;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.home-image {
+    width: 50%;
+    height: 100;
+    float: left;
+    flex: 1;
+}
+
+.home-image img{
+    width: 350px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.register {
+  height: 100;
+  width: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:white;
+}
+
+.register__container {
+  display: flex;
+  flex-direction: column;
+  text-align: top;
+  background-color: white;
+  padding: 40px;
+}
+
+.register__textBox {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  background-color: blue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register__google {
+  background-color: darkblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register div {
+  margin-top: 3px;
+}

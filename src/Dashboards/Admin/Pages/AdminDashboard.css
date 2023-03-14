@@ -1,0 +1,122 @@
+.admin-page-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-users-div {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.05);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.search-bar-div {
+    display: flex;
+    align-items: flex-start;
+}
+
+.search-bar-textbox-div {
+    display: flex;
+    align-items: flex-start;
+}
+
+.search-bar-textbox {
+    border-radius: 40px;
+    height: 30px;
+    width: 400px;
+    border-width: 0.5px;
+    padding: 5px 20px 5px 20px;
+}
+.search-bar-textbox:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.search-bar-textbox:focus {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    outline: none;
+}
+
+.users-list-div {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 95%;
+}
+.users-list-div:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.users-list-div:focus {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.users-list-email-div {
+    padding: 10px;
+    width: 30%;
+    overflow: scroll;
+}
+
+.users-list-roles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 60%;
+}
+
+.users-list-edit-button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 40px;
+    width: 10%;
+    padding: 10px;
+}
+
+.admin-checkbox-div {
+    margin-right: 5px;
+}
+
+.customer-checkbox-div {
+    margin-right: 5px;
+}
+
+.driver-checkbox-div {
+    margin-right: 5px;
+}
+
+.manager-checkbox-div {
+    margin-right: 5px;
+}
+
+
+.users-list-edit-button {
+    background-color: rgba(50, 136, 228, 0.961);
+    color: white;
+    height: 30px;
+    width: 70px;
+    border-radius: 30px;
+    margin-top: 10px;
+    border-width: 0px;
+}
+
+.users-list-edit-button:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.users-list-edit-button:active {
+    box-shadow: none;
+}
